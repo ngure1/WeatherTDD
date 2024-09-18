@@ -1,45 +1,45 @@
 {
 	"coord": {
-		"lon": -74.006,
-		"lat": 40.7143
+		"lon": -0.1257,
+		"lat": 51.5085
 	},
 	"weather": [
 		{
-			"id": 804,
+			"id": 803,
 			"main": "Clouds",
-			"description": "overcast clouds",
+			"description": "broken clouds",
 			"icon": "04n"
 		}
 	],
 	"base": "stations",
 	"main": {
-		"temp": 291.54,
-		"feels_like": 291.65,
-		"temp_min": 288.25,
-		"temp_max": 292.75,
-		"pressure": 1024,
-		"humidity": 85,
-		"sea_level": 1024,
-		"grnd_level": 1022
+		"temp": 290.67,
+		"feels_like": 290.36,
+		"temp_min": 289.12,
+		"temp_max": 291.49,
+		"pressure": 1030,
+		"humidity": 72,
+		"sea_level": 1030,
+		"grnd_level": 1025
 	},
 	"visibility": 10000,
 	"wind": {
-		"speed": 4.63,
-		"deg": 20
+		"speed": 6.17,
+		"deg": 70
 	},
 	"clouds": {
-		"all": 100
+		"all": 75
 	},
-	"dt": 1726568454,
+	"dt": 1726598724,
 	"sys": {
 		"type": 2,
-		"id": 2008776,
-		"country": "US",
-		"sunrise": 1726569547,
-		"sunset": 1726614105
+		"id": 2075535,
+		"country": "GB",
+		"sunrise": 1726551547,
+		"sunset": 1726596651
 	},
-	"timezone": -14400,
-	"id": 5128581,
-	"name": "New York",
+	"timezone": 3600,
+	"id": 2643743,
+	"name": "London",
 	"cod": 200
 }

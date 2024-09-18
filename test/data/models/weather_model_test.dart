@@ -10,21 +10,21 @@ void main() {
   const testWeatherModel = WeatherModel(
     cityName: "London",
     main: "Clouds",
-    description: "few clouds",
-    iconCode: "02d",
-    temperature: 10.0,
-    pressure: 1010,
-    humidity: 50,
+    description: "broken clouds",
+    iconCode: "04n",
+    temperature: 290.67,
+    pressure: 1030,
+    humidity: 72,
   );
 
   const testWeatherEntity = WeatherEntity(
     cityName: "London",
     main: "Clouds",
-    description: "few clouds",
-    iconCode: "02d",
-    temperature: 10.0,
-    pressure: 1010,
-    humidity: 50,
+    description: "broken clouds",
+    iconCode: "04n",
+    temperature: 290.67,
+    pressure: 1030,
+    humidity: 72,
   );
 
   test('should be equal to an entity', () async {
@@ -50,9 +50,9 @@ void main() {
     const expectedJsonMap = {
       "name": "London",
       "weather": [
-        {"main": "Clouds", "description": "few clouds", "icon": "02d"}
+        {"main": "Clouds", "description": "broken clouds", "icon": "04n"}
       ],
-      "main": {"temp": 10.0, "pressure": 1010, "humidity": 50},
+      "main": {"temp": 290.67, "pressure": 1030, "humidity": 72},
     };
     //act
     final result = testWeatherModel.toJson(testWeatherModel);

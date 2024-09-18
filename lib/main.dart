@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:weather_tdd/core/constants/constants.dart';
 
 void main() {
+  Urls.loadEnv();
   runApp(const MainApp());
 }
 
